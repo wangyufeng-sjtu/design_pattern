@@ -1,7 +1,6 @@
 package Singleton;
 
 public class IoDH_Singleton {
-
     private IoDH_Singleton() {
     }
 
