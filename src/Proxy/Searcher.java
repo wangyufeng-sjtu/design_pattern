@@ -16,6 +16,7 @@ class RealSearcher extends Searcher{
 
 class ProxySearcher extends Searcher{
     private RealSearcher searcher = new RealSearcher(); //维持一个对真实主题的引用
+    //在真实主题基础上添加的功能
     private AccessValidator validator;
     private Logger logger;
 
